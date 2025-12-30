@@ -1,0 +1,31 @@
+{
+  "name": "mamacita",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mamacita - Super app for pregnancy and motherhood",
+  "workspaces": [
+    "backend",
+    "mobile",
+    "admin",
+    "cms",
+    "shared"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:mobile": "npm run dev --workspace=mobile",
+    "dev:admin": "npm run dev --workspace=admin",
+    "dev:cms": "npm run dev --workspace=cms",
+    "build:all": "npm run build --workspaces",
+    "test:all": "npm run test --workspaces",
+    "lint:all": "npm run lint --workspaces"
+  },
+  "keywords": [
+    "pregnancy",
+    "motherhood",
+    "health",
+    "community",
+    "education"
+  ],
+  "author": "Mamacita Team",
+  "license": "PROPRIETARY"
+}
