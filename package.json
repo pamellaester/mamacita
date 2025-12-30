@@ -15,6 +15,8 @@
     "dev:mobile": "npm run dev --workspace=mobile",
     "dev:admin": "npm run dev --workspace=admin",
     "dev:cms": "npm run dev --workspace=cms",
+    "build": "npm run build --workspace=backend",
+    "start": "npm run start --workspace=backend",
     "build:all": "npm run build --workspaces",
     "test:all": "npm run test --workspaces",
     "lint:all": "npm run lint --workspaces"
